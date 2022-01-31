@@ -30,7 +30,7 @@ ul.topnav li a {
   
   /* Active color background */
 ul.topnav li a.active {
-      background-color: RGB(0, 54, 151);
+      background-color: linear-gradient(95deg, #0700b8 5%, #00ff88 100%);
 }
   
   /* Float right */
@@ -53,4 +53,19 @@ ul.topnav li.right {
   .størelse {
       height: 375px;
       width: 600px;
+  }
+
+  .skrift {
+      font-size: 30px;
+  }
+
+  .center {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  #shadow {
+    box-shadow: 1px 1px 3px 2px #0700b8, 3px 3px 3px 2px #00ff88;
   }
