@@ -1,5 +1,6 @@
 html {
     min-height: 100%;
+    min-width: 100%;
 }
 
 body {    
@@ -27,12 +28,7 @@ ul.topnav li a {
     text-decoration: none;
     font-size: 25px;
 }
-  
-  /* Active color background */
-ul.topnav li a.active {
-      background-color: linear-gradient(95deg, #0700b8 5%, #00ff88 100%);
-}
-  
+
   /* Float right */
 ul.topnav li.right {
       float: right;
@@ -50,6 +46,15 @@ ul.topnav li.right {
     font-size: 15px;
   }
 
+  .divKon-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10px;
+
+    text-align: center;
+    font-size: 15px;
+  }
+
   .størelse {
       height: 375px;
       width: 600px;
@@ -60,12 +65,32 @@ ul.topnav li.right {
   }
 
   .center {
-    width: 30%;
     margin: auto;
     text-align: center;
-    padding-top: 70px;
+    color: white;
+    padding-top: 60px;
   }
 
   #shadow {
     box-shadow: 1px 1px 3px 2px #0700b8, 3px 3px 3px 2px #00ff88;
+  }
+
+
+  /* Div til konverterer */
+
+  .divKon {
+    background-color: #312d96;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    height: 375px;
+    width: 600px;
+    margin: auto;
+  }
+
+  input[type=number] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid black;
   }
