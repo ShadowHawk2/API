@@ -15,10 +15,12 @@
     <!--Konverterer og Tempratur-->
             <div class="divKon-grid">
                 <div class="divKon" id="shadow">
-                    <p>Konverterer</p>
-                    <label>Celsius</label>
-                    <input id="inputCelsius" type="number" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
-                    <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+                    <p class="skrift">Konverterer</p>
+                    <div class="padding">
+                        <label>Celsius:</label>
+                        <input type="text" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+                        <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+                    </div>
                 </div>
 
                 <div class="center">
